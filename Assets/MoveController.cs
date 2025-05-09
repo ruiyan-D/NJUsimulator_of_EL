@@ -6,6 +6,7 @@ public class MoveController : MonoBehaviour
 {
     private Animator ani;
     private Rigidbody2D rBody;
+    [SerializeField] public bool moveable = true;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,20 +17,38 @@ public class MoveController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxisRaw("Horizontal");
-        float vertical = Input.GetAxisRaw("Vertical");
-        if(horizontal != 0)
+        if (moveable)
         {
-            ani.SetFloat("Horizontal", horizontal);
-            ani.SetFloat("Vertical", 0);
+            float horizontal = Input.GetAxisRaw("Horizontal");
+            float vertical = Input.GetAxisRaw("Vertical");
+            if (horizontal != 0)
+            {
+                ani.SetFloat("Horizontal", horizontal);
+                ani.SetFloat("Vertical", 0);
+            }
+
+            if (vertical != 0)
+            {
+                ani.SetFloat("Horizontal", 0);
+                ani.SetFloat("Vertical", vertical);
+            }
+
+            Vector2 move = new(horizontal, vertical);
+            if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
+            {
+                ani.SetFloat("Speed", move.magnitude);
+                rBody.velocity = move * 4.0f;
+            }
+            else
+            {
+                ani.SetFloat("Speed", move.magnitude);
+                rBody.velocity = move * 2.0f;
+            }
         }
-        if(vertical != 0)
+        else
         {
-            ani.SetFloat("Horizontal", 0);
-            ani.SetFloat("Vertical", vertical);
+            ani.SetFloat("Speed", 0);
+            rBody.velocity = Vector2.zero;
         }
-        Vector2 move = new(horizontal, vertical);
-        ani.SetFloat("Speed", move.magnitude);
-        rBody.velocity = move * 2.0f;
     }
 }
