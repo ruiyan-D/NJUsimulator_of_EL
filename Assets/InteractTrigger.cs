@@ -5,7 +5,7 @@ public class NewBehaviourScript : MonoBehaviour
     [TextArea(1,4)]
     public string[] boxTextLines;
     public bool hasName;
-    
+
     [SerializeField] private bool isEntered;
 
     private void OnTriggerEnter(Collider other)
