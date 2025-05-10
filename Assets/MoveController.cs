@@ -21,16 +21,6 @@ public class MoveController : MonoBehaviour
         {
             float horizontal = Input.GetAxisRaw("Horizontal");
             float vertical = Input.GetAxisRaw("Vertical");
-
-            if (horizontal != 0 || vertical != 0)
-            {
-                ani.speed = 2f; // 移动时加快动画
-            }
-            else
-            {
-                ani.speed = 1.0f; // 停止时恢复正常速度
-            }
-
             if (horizontal != 0)
             {
                 ani.SetFloat("Horizontal", horizontal);
@@ -44,15 +34,10 @@ public class MoveController : MonoBehaviour
             }
 
             Vector2 move = new(horizontal, vertical);
-            if (move.magnitude > 1)
-            {
-                move.Normalize();
-            }
             if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
             {
                 ani.SetFloat("Speed", move.magnitude);
                 rBody.velocity = move * 4.0f;
-                ani.speed = 3f;
             }
             else
             {

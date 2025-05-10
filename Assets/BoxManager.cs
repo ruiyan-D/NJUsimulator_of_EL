@@ -67,6 +67,9 @@ public class BoxManager : MonoBehaviour
         boxTextLines = lines;
         currentLine = 0;
         boxSwitcher.SetActive(true);
+
+        getName();
+
         boxName.gameObject.SetActive(hasName);
         
         // 新增：停止之前的协程
@@ -105,6 +108,7 @@ public class BoxManager : MonoBehaviour
     {
         if (boxTextLines[currentLine].StartsWith("name:"))
         {
+            Debug.Log("Has given name!");
             boxName.text = boxTextLines[currentLine].Replace("name:", "");
             currentLine++;
         }
