@@ -5,21 +5,23 @@ public class NewBehaviourScript : MonoBehaviour
     [TextArea(1,4)]
     public string[] boxTextLines;
     public bool hasName;
-
+    
     [SerializeField] private bool isEntered;
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            //Debug.Log("isEntered!");
             isEntered = true;
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
+            //Debug.Log("Has get out!");
             isEntered = false;
         }
     }
@@ -32,7 +34,8 @@ public class NewBehaviourScript : MonoBehaviour
             // 新增：空引用检查
             if (BoxManager.instance != null)
             {
-                BoxManager.instance.grabLines(boxTextLines, hasName);
+                bool actualHasName = boxTextLines.Length > 0 && boxTextLines[0].StartsWith("name:");
+                BoxManager.instance.grabLines(boxTextLines, actualHasName);
             }
             else
             {
