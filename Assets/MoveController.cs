@@ -34,15 +34,23 @@ public class MoveController : MonoBehaviour
             }
 
             Vector2 move = new(horizontal, vertical);
+
+            if (move.magnitude > 1)
+            {
+                move.Normalize();
+            }
+
             if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
             {
                 ani.SetFloat("Speed", move.magnitude);
                 rBody.velocity = move * 4.0f;
+                ani.speed = 3f;
             }
             else
             {
                 ani.SetFloat("Speed", move.magnitude);
                 rBody.velocity = move * 2.0f;
+                ani.speed = 2f;
             }
         }
         else
