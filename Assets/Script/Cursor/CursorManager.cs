@@ -18,7 +18,10 @@ public class CursorManager : MonoBehaviour
         switch(clickObject.tag){
             case "Teleport":
                 var teleport = clickObject.GetComponent<Teleport>();
-                teleport?.TeleportToScene();
+                if (teleport != null && PositionManager.Instance.IsPositionActive(teleport.positionID))
+                {
+                    teleport.TeleportToScene();
+                }
                 break;
         }
     }

@@ -33,6 +33,7 @@ public class BoxManager : MonoBehaviour
 
     void Update()
     {
+        if (boxSwitcher != null && boxSwitcher.activeInHierarchy)
         if (boxSwitcher.activeInHierarchy)
         {
             // 修改：检测按下事件（GetKeyDown 而非 GetKey）
