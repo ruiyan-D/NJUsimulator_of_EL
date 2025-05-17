@@ -14,4 +14,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game1.unity
     guid: 8e82788a40f8647499d13e08beb486f4
+  - enabled: 1
+    path: Assets/Scenes/Birth.unity
+    guid: 3ca4de8228f66044ca07019d2ed70557
+  - enabled: 1
+    path: Assets/Scenes/NorthEast.unity
+    guid: c9f102ce5c4e5f74fb01f0dc8208199c
+  - enabled: 1
+    path: Assets/Scenes/NorthMid.unity
+    guid: e472dfb2406d5a1459b43b3d6c988241
+  - enabled: 1
+    path: Assets/Scenes/TaskBoard.unity
+    guid: cc2b321cd9d96824285bafc15087aa79
+  - enabled: 1
+    path: Assets/Scenes/NorthWest.unity
+    guid: b703ffb4802876449b5580ca15b10a4a
   m_configObjects: {}
