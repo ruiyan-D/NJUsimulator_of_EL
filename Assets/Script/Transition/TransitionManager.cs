@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,38 +7,57 @@ public class TransitionManager : Singleton<TransitionManager>
     public CanvasGroup fadeCanvasGroup;
     public float fadeDuration;
     private bool isFade;
+    public GameObject playerPrefab; // 预制体
 
     public void Transition(string from, string to)
     {
-        if(!isFade)
-            StartCoroutine(TransitionToScene(from,to));
+        if (!isFade)
+            StartCoroutine(TransitionToScene(from, to));
     }
-    private IEnumerator TransitionToScene(string from,string to){
-        yield return Fade(1);//black
-        yield return SceneManager.LoadSceneAsync(to,LoadSceneMode.Additive);
-        yield return SceneManager.UnloadSceneAsync(from);
 
-        Scene newScene = SceneManager.GetSceneAt(SceneManager.sceneCount-1);
+    private IEnumerator TransitionToScene(string from, string to)
+    {
+        // 保存当前位置
+        GameObject currentPlayer = GameObject.FindGameObjectWithTag("Player");
+        if (currentPlayer != null)
+        {
+            PositionManager.Instance.SavePlayerPosition(from, currentPlayer.transform.position);
+        }
+
+        yield return Fade(1); // black
+        yield return SceneManager.LoadSceneAsync(to, LoadSceneMode.Single);
+
+        Scene newScene = SceneManager.GetSceneByName(to);
         SceneManager.SetActiveScene(newScene);
 
-        yield return Fade(0);//white
+        // 找到新的 Player
+        GameObject newPlayer = GameObject.FindGameObjectWithTag("Player");
 
-        // 清理多余的 AudioListener
-        AudioListener[] listeners = FindObjectsOfType<AudioListener>();
-        for (int i = 1; i < listeners.Length; i++)
+        // 如果没有找到，实例化一个
+        if (newPlayer == null && playerPrefab != null)
         {
-            listeners[i].enabled = false;
+            newPlayer = Instantiate(playerPrefab);
+            newPlayer.name = "Player";
         }
+
+        // 设置 Player 位置
+        Vector3 savedPosition = PositionManager.Instance.GetSavedPosition(to);
+        if (savedPosition != Vector3.zero)
+        {
+            newPlayer.transform.position = savedPosition;
+        }
+
+        yield return Fade(0); // white
     }
 
     private IEnumerator Fade(float targetAlpha)
     {
         isFade = true;
         fadeCanvasGroup.blocksRaycasts = true;
-        float speed = Mathf.Abs(fadeCanvasGroup.alpha-targetAlpha)/fadeDuration;
-        while(!Mathf.Approximately(fadeCanvasGroup.alpha,targetAlpha))
+        float speed = Mathf.Abs(fadeCanvasGroup.alpha - targetAlpha) / fadeDuration;
+        while (!Mathf.Approximately(fadeCanvasGroup.alpha, targetAlpha))
         {
-            fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha,targetAlpha,speed*Time.deltaTime);
+            fadeCanvasGroup.alpha = Mathf.MoveTowards(fadeCanvasGroup.alpha, targetAlpha, speed * Time.deltaTime);
             yield return null;
         }
         fadeCanvasGroup.blocksRaycasts = false;
