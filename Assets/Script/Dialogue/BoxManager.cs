@@ -5,7 +5,7 @@ using UnityEngine;
 public class BoxManager : MonoBehaviour
 {
     public static BoxManager instance;
-    public GameObject boxSwitcher;
+    public GameObject DialogueBox;
     public TextMeshProUGUI boxText, boxName;
     
     [TextArea(1,4)]
@@ -15,8 +15,10 @@ public class BoxManager : MonoBehaviour
     [SerializeField] private float textSpeed;
     
     private bool isScrolling = false;
-    private bool forceComplete = false;         // 新增：强制完成标志
-    private Coroutine currentTextCoroutine;     // 新增：跟踪当前协程
+    private bool forceComplete = false;         // 强制完成标志
+    private Coroutine currentTextCoroutine;     // 跟踪当前协程
+    
+    public Taskable taskable;                   // 管理任务委派
 
     void Awake()
     {
@@ -33,8 +35,7 @@ public class BoxManager : MonoBehaviour
 
     void Update()
     {
-        if (boxSwitcher != null && boxSwitcher.activeInHierarchy)
-        if (boxSwitcher.activeInHierarchy)
+        if (DialogueBox.activeInHierarchy)
         {
             // 修改：检测按下事件（GetKeyDown 而非 GetKey）
             if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
@@ -55,8 +56,18 @@ public class BoxManager : MonoBehaviour
                     }
                     else
                     {
-                        boxSwitcher.SetActive(false);
+                        DialogueBox.SetActive(false);
                         FindObjectOfType<MoveController>().moveable = true;
+
+                        if (taskable == null) // 存在不可发布任务的npc
+                        { 
+                            return;
+                        }
+                        else
+                        {
+                            taskable.DelegateTask();
+                            TaskManager.instance.UpdateTaskList();
+                        }
                     }
                 }
             }
@@ -67,7 +78,7 @@ public class BoxManager : MonoBehaviour
     {
         boxTextLines = lines;
         currentLine = 0;
-        boxSwitcher.SetActive(true);
+        DialogueBox.SetActive(true);
 
         getName();
 
@@ -103,13 +114,12 @@ public class BoxManager : MonoBehaviour
         
         isScrolling = false;
     }
-
-    // getName() 保持原样
+    
     private void getName()
     {
         if (boxTextLines[currentLine].StartsWith("name:"))
         {
-            Debug.Log("Has given name!");
+            //Debug.Log("Has given name!");
             boxName.text = boxTextLines[currentLine].Replace("name:", "");
             currentLine++;
         }

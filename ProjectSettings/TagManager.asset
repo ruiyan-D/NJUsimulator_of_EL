@@ -17,7 +17,7 @@ TagManager:
   - 
   - 
   - Player
-  - 
+  - TaskBox
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1082030739
+    locked: 0
+  - name: TaskBox
+    uniqueID: 1823443087
     locked: 0

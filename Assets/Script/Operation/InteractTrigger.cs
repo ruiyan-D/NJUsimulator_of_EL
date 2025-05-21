@@ -1,12 +1,13 @@
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class InteractTrigger : MonoBehaviour
 {
     [TextArea(1,4)]
     public string[] boxTextLines;
-    public bool hasName;
-    
+    [SerializeField]public bool hasName;
     [SerializeField] private bool isEntered;
+    
+    public Taskable taskable;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -14,6 +15,9 @@ public class NewBehaviourScript : MonoBehaviour
         {
             //Debug.Log("isEntered!");
             isEntered = true;
+            
+            Debug.Log("Taskable given!");
+            BoxManager.instance.taskable = taskable;
         }
     }
 
@@ -23,13 +27,16 @@ public class NewBehaviourScript : MonoBehaviour
         {
             //Debug.Log("Has get out!");
             isEntered = false;
+            
+            Debug.Log("Taskable cleared!");
+            BoxManager.instance.taskable = null;
         }
     }
 
     void Update()
     {
         if (isEntered && (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
-                      && BoxManager.instance.boxSwitcher.activeInHierarchy == false)
+                      && BoxManager.instance.DialogueBox.activeInHierarchy == false)
         {
             // 新增：空引用检查
             if (BoxManager.instance != null)
