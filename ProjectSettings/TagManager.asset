@@ -54,3 +54,6 @@ TagManager:
   - name: TaskBox
     uniqueID: 1823443087
     locked: 0
+  - name: Curtain
+    uniqueID: 3931842567
+    locked: 0

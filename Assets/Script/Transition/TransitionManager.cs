@@ -8,9 +8,21 @@ public class TransitionManager : Singleton<TransitionManager>
     public float fadeDuration;
     private bool isFade;
     public GameObject playerPrefab; // 预制体
+    private string lastSceneBeforeMenu = null;
 
     public void Transition(string from, string to)
     {
+        // 如果进入 Menu，记录 from 场景
+        if (to == "Menu")
+        {
+            lastSceneBeforeMenu = from;
+        }
+
+        // 如果是从 Menu 回来，但未指定目标场景，决定去哪里
+        if (from == "Menu" && to == "Undefined")
+        {
+            to = string.IsNullOrEmpty(lastSceneBeforeMenu) ? "IntroScene" : lastSceneBeforeMenu;
+        }
         if (!isFade)
             StartCoroutine(TransitionToScene(from, to));
     }
