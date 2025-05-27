@@ -62,7 +62,8 @@ public class PositionManager : MonoBehaviour
 
     public bool IsPositionActive(string id)
     {
-        return activePositions.ContainsKey(id) && activePositions[id];
+        if(id == "MENU") return true;
+        else return activePositions.ContainsKey(id) && activePositions[id];
     }
 
     // 存储每个场景对应的 Player 位置

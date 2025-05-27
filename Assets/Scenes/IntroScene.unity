@@ -234,13 +234,13 @@ GameObject:
   - component: {fileID: 114147329}
   - component: {fileID: 114147328}
   - component: {fileID: 114147330}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &114147327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1844,13 +1844,13 @@ GameObject:
   - component: {fileID: 1270509452}
   - component: {fileID: 1270509451}
   - component: {fileID: 1270509453}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1270509450
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2047,7 +2047,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1290059392
 Transform:
   m_ObjectHideFlags: 0
@@ -2081,7 +2081,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1333973490
 Transform:
   m_ObjectHideFlags: 0
@@ -2160,7 +2160,7 @@ GameObject:
   - component: {fileID: 1652365139}
   - component: {fileID: 1652365141}
   - component: {fileID: 1652365140}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2239,7 +2239,7 @@ GameObject:
   - component: {fileID: 1683455279}
   - component: {fileID: 1683455281}
   - component: {fileID: 1683455280}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Text (Legacy)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2403,7 +2403,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1976559059
 MonoBehaviour:
   m_ObjectHideFlags: 0

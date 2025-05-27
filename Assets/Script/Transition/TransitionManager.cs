@@ -15,6 +15,7 @@ public class TransitionManager : Singleton<TransitionManager>
         // 如果进入 Menu，记录 from 场景
         if (to == "Menu")
         {
+            Debug.Log("save scene");
             lastSceneBeforeMenu = from;
         }
 
@@ -33,6 +34,7 @@ public class TransitionManager : Singleton<TransitionManager>
         GameObject currentPlayer = GameObject.FindGameObjectWithTag("Player");
         if (currentPlayer != null)
         {
+            //Debug.Log("save position");
             PositionManager.Instance.SavePlayerPosition(from, currentPlayer.transform.position);
         }
 
@@ -56,6 +58,7 @@ public class TransitionManager : Singleton<TransitionManager>
         Vector3 savedPosition = PositionManager.Instance.GetSavedPosition(to);
         if (savedPosition != Vector3.zero)
         {
+            Debug.Log("set position");
             newPlayer.transform.position = savedPosition;
         }
 

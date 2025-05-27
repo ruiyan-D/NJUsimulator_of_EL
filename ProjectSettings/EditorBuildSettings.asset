@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/South.unity
     guid: d0c5c4764508e6c4cbf57b5c56b2303f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game1.unity
     guid: 8e82788a40f8647499d13e08beb486f4
   - enabled: 1
     path: Assets/Scenes/Dormitory.unity
     guid: b2341e2ba3c94ce4fb890442dd08ac16
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Birth.unity
     guid: 3ca4de8228f66044ca07019d2ed70557
   - enabled: 1
@@ -42,9 +42,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Musicroom.unity
     guid: 7a7b7d1ee6ba80d44a5b1b589e706156
   - enabled: 1
-    path: Assets/Scenes/Classroom2.unity
+    path: Assets/Scenes/NJ102.unity
     guid: 66e6feb8f67f79046a091f440b8dfb89
   - enabled: 1
     path: Assets/Scenes/IntroScene.unity
     guid: 127f53ebbeeb0774e9a1d4ff408bb310
+  - enabled: 1
+    path: Assets/Scenes/Office.unity
+    guid: f49c1685dd3a32e44a1bea7f11368738
+  - enabled: 1
+    path: Assets/Scenes/ComputerRoom.unity
+    guid: ae3e6419133130142bfde809326e8f05
+  - enabled: 1
+    path: Assets/Scenes/NJCorridor.unity
+    guid: 9e2145735ed2e9d4e94dc4f21ef44ccf
+  - enabled: 1
+    path: Assets/Scenes/Corrider.unity
+    guid: c046e1ad44fd0fe46a3ca332ed6f5c31
+  - enabled: 1
+    path: Assets/Scenes/NJ101.unity
+    guid: 10631b9c1fa6c274fbb525b23e214848
   m_configObjects: {}

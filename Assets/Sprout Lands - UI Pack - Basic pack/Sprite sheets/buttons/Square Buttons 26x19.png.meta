@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,19 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8493c623d39291948bd5e94e2b588025
-      internalID: 1461811879
+      spriteID: eb21c9c7a7f5c4d449cc04499e2ca91f
+      internalID: 1253499825
       vertices: []
       indices: 
       edges: []
@@ -145,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 442fb3e712b04724e84165604124e8ba
-      internalID: -1851730873
+      spriteID: 45ca64ff42b6d9b45a05065e0a21cf5b
+      internalID: 1790348961
       vertices: []
       indices: 
       edges: []
@@ -166,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db0aef65855c9b2458f042cca9db2612
-      internalID: 2124309298
+      spriteID: ba0b718ffe2d11b408aea15263a9cd04
+      internalID: 842495862
       vertices: []
       indices: 
       edges: []
@@ -187,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac42f5cada68ac64a88f24cc1dae2e7b
-      internalID: -1493070268
+      spriteID: 345ab8385051f324180ad7633ea8f68f
+      internalID: 189618908
       vertices: []
       indices: 
       edges: []
@@ -208,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d614d1c3c031c1d4f89e4b1047dccea7
-      internalID: -816609150
+      spriteID: e2dd9ac9dc676314799e0ff985f60d45
+      internalID: 1193377392
       vertices: []
       indices: 
       edges: []
@@ -229,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 163c52051f33d314ea51412d335d57d7
-      internalID: 1828906345
+      spriteID: 02e6d10a5e0ebc84a87a60787caeb876
+      internalID: -1921757624
       vertices: []
       indices: 
       edges: []
@@ -250,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa9a5e69f9dcc984c91d97d69f0342eb
-      internalID: -197210391
+      spriteID: 1e91b297798cd6c4294d8844bbdb102e
+      internalID: 1702476699
       vertices: []
       indices: 
       edges: []
@@ -271,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 708501b1aaad5af4b9ab0ade26f4e4fa
-      internalID: -1577044724
+      spriteID: 714a0a0facbbc8b4281ed75a5d88244c
+      internalID: -1342217866
       vertices: []
       indices: 
       edges: []
@@ -288,14 +275,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Square Buttons 26x19_0: 1461811879
-      Square Buttons 26x19_1: -1851730873
-      Square Buttons 26x19_2: 2124309298
-      Square Buttons 26x19_3: -1493070268
-      Square Buttons 26x19_4: -816609150
-      Square Buttons 26x19_5: 1828906345
-      Square Buttons 26x19_6: -197210391
-      Square Buttons 26x19_7: -1577044724
+      Square Buttons 26x19_0: 1253499825
+      Square Buttons 26x19_1: 1790348961
+      Square Buttons 26x19_2: 842495862
+      Square Buttons 26x19_3: 189618908
+      Square Buttons 26x19_4: 1193377392
+      Square Buttons 26x19_5: -1921757624
+      Square Buttons 26x19_6: 1702476699
+      Square Buttons 26x19_7: -1342217866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
