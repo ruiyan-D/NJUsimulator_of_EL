@@ -3120,7 +3120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 91eb994d1a4cf5d48b0e4b8acee60d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  positionID: 19
+  positionID: MENU
   sceneFrom: Menu
   sceneToGo: Undefined
 --- !u!61 &2062831388

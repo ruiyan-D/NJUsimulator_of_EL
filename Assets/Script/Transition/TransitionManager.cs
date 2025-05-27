@@ -13,9 +13,10 @@ public class TransitionManager : Singleton<TransitionManager>
     public void Transition(string from, string to)
     {
         // 如果进入 Menu，记录 from 场景
-        if (to == "Menu")
+        if (to == "Menu"&& from == "Undefined")
         {
-            Debug.Log("save scene");
+            from = SceneManager.GetActiveScene().name;
+            Debug.Log("save scene "+from);
             lastSceneBeforeMenu = from;
         }
 
