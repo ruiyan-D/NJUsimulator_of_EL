@@ -16,16 +16,7 @@ public class TaskManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-        else
-        {
-            if (instance != this)
-            {
-                Destroy(gameObject);
-                Debug.Log("Instance already exists, destroying object");
-            }
-            DontDestroyOnLoad(gameObject);
+            
         }
     }
     
@@ -49,9 +40,10 @@ public class TaskManager : MonoBehaviour
         taskList.Clear();
 
         // 添加新任务
-        for (int i = 0; i < PlayerStatus.instance.tasks.Count; i++)
+        for (int i = 0; i < PlayerStatus.instance.tasks.Length; i++)
         {
-            AddPerfab(PlayerStatus.instance.tasks[i], i);
+            if(PlayerStatus.instance.tasks[i].taskStatus == Tasks._taskStatus.accepted)
+                AddPerfab(PlayerStatus.instance.tasks[i], i);
         }
     }
 
@@ -81,10 +73,17 @@ public class TaskManager : MonoBehaviour
             return;
         }
 
-        Transform taskTextTransform = newPerfab.transform.Find("TaskText");
+        Transform taskTextTransform = buttonTransform.transform.Find("TaskText");
         if (taskTextTransform == null)
         {
             Debug.LogError("TaskText child not found!");
+            return;
+        }
+        
+        Transform taskDesTransform = buttonTransform.transform.Find("TaskDes");
+        if (taskDesTransform == null)
+        {
+            Debug.LogError("TaskDes child not found!");
             return;
         }
 
@@ -96,6 +95,15 @@ public class TaskManager : MonoBehaviour
         else
         {
             Debug.LogError("TextMeshProUGUI component not found on TaskText!");
+        }
+
+        if (taskDesTransform.TryGetComponent<TextMeshProUGUI>(out var desTextComponent))
+        {
+            desTextComponent.text = task.taskDescription;
+        }
+        else
+        {
+            Debug.LogError("TextMeshProUGUI component not found on TaskDes!");
         }
 
         taskList.Add(newPerfab);

@@ -1,4 +1,0 @@
-repository "项目@tj_ruiyan_d@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"

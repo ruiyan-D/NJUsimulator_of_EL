@@ -19,27 +19,35 @@ public class BoxManager : MonoBehaviour
     private Coroutine currentTextCoroutine;     // 跟踪当前协程
     
     public Taskable taskable;                   // 管理任务委派
+    
+    public TaskTarget taskTarget;               // 管理任务状况
 
+    //public PlayerStatus playerStat;
     void Awake()
     {
         if (instance == null)
         {
             instance = this;
-            DontDestroyOnLoad(gameObject);
+            // DontDestroyOnLoad(gameObject);
+            // 非根物体不用destroy保护
         }
-        else
-        {
-            Destroy(gameObject);
-        }
+        // 作为persistent对象已经实例化过一次了，无需再次检查，persistent大人会出手的
+        // MARKER: 如果出现bug请检查这里
     }
 
     void Update()
     {
-        if (DialogueBox.activeInHierarchy)
+        updateContent();
+    }
+    private void updateContent()
+    {
+        if (DialogueBox.activeInHierarchy && boxTextLines.Length > 0)
         {
+            // Debug.Log("Enter there.");
             // 修改：检测按下事件（GetKeyDown 而非 GetKey）
             if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
             {
+                Debug.Log("Detected interact.");
                 if (isScrolling)
                 {
                     // 如果正在滚动，立即完成当前行
@@ -58,16 +66,37 @@ public class BoxManager : MonoBehaviour
                     {
                         DialogueBox.SetActive(false);
                         FindObjectOfType<MoveController>().moveable = true;
+                        
+                        if (currentTextCoroutine != null)
+                        {
+                            StopCoroutine(currentTextCoroutine);
+                            currentTextCoroutine = null;
+                            isScrolling = false;
+                            forceComplete = false;
+                        }
 
                         if (taskable == null) // 存在不可发布任务的npc
                         { 
-                            return;
+                            Debug.Log("This NPC cannot delegate task.");
                         }
                         else
                         {
                             taskable.DelegateTask();
                             TaskManager.instance.UpdateTaskList();
                         }
+
+                        if (taskTarget != null)
+                        {
+                            taskTarget.hasTalked = true;
+                            taskTarget.targetComplete();
+                        }
+                        else
+                        {
+                            Debug.Log("This NPC cannot help with task.");
+                        }
+
+                        boxTextLines = null;
+
                     }
                 }
             }
@@ -84,11 +113,14 @@ public class BoxManager : MonoBehaviour
 
         boxName.gameObject.SetActive(hasName);
         
-        // 新增：停止之前的协程
         if (currentTextCoroutine != null)
         {
             StopCoroutine(currentTextCoroutine);
+            currentTextCoroutine = null;
+            isScrolling = false;
+            forceComplete = false;
         }
+
         currentTextCoroutine = StartCoroutine(ScrollingText());
         
         FindObjectOfType<MoveController>().moveable = false;
@@ -120,8 +152,45 @@ public class BoxManager : MonoBehaviour
         if (boxTextLines[currentLine].StartsWith("name:"))
         {
             //Debug.Log("Has given name!");
-            boxName.text = boxTextLines[currentLine].Replace("name:", "");
-            currentLine++;
+            if (boxTextLines[currentLine].Equals("name:Player"))
+            {
+                boxName.text = PlayerStatus.instance.playerName;
+                currentLine++;
+            }
+            else
+            {
+                boxName.text = boxTextLines[currentLine].Replace("name:", "");
+                currentLine++;
+            }
         }
+    }
+// DelegateTask
+    public int checkQuestStatus()
+    {
+        // 逻辑：先判定玩家完成但是NPC处没有更新状态的，再判断processing的，再判定未接取的，其他不管
+        // 0表示空，使用default对话；1表示未更新状态的，使用任务后对话；2表示processing，使用任务中对话；3表示接取任务对话
+        // 其实还有个想法是任务后替换default对话，先修完bug再来搞
+        if (taskable == null)
+        {
+            Debug.Log(taskable);
+            return 0;
+        }
+        
+        for (int j = 0; j < PlayerStatus.instance.tasks.Length; j++)
+        {
+            if (taskable.task[taskable.currentTask].taskTitle.Equals(PlayerStatus.instance.tasks[j].taskTitle))
+            {
+                if(PlayerStatus.instance.tasks[j].taskStatus == Tasks._taskStatus.finished
+                   && taskable.task[taskable.currentTask].taskStatus == Tasks._taskStatus.accepted)
+                    return 1;
+                if (PlayerStatus.instance.tasks[j].taskStatus == Tasks._taskStatus.accepted)
+                    return 2;
+                if (PlayerStatus.instance.tasks[j].taskStatus == Tasks._taskStatus.notAccpted)
+                    return 3;
+            }
+        }
+        
+        Debug.Log("404 not FOUND");
+        return 0;
     }
 }
