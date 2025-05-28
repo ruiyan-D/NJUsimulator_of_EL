@@ -47,7 +47,7 @@ public class BoxManager : MonoBehaviour
             // 修改：检测按下事件（GetKeyDown 而非 GetKey）
             if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
             {
-                Debug.Log("Detected interact.");
+                //Debug.Log("Detected interact.");
                 if (isScrolling)
                 {
                     // 如果正在滚动，立即完成当前行

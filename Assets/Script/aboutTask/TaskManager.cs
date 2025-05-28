@@ -8,7 +8,6 @@ public class TaskManager : MonoBehaviour
 {
     public static TaskManager instance;
     public GameObject TaskBox;
-    public GameObject TaskPerfab;
     public List<GameObject> taskList;
     
     void Awake()
@@ -42,8 +41,11 @@ public class TaskManager : MonoBehaviour
         // 添加新任务
         for (int i = 0; i < PlayerStatus.instance.tasks.Length; i++)
         {
-            if(PlayerStatus.instance.tasks[i].taskStatus == Tasks._taskStatus.accepted)
+            if (PlayerStatus.instance.tasks[i].taskStatus == Tasks._taskStatus.accepted)
+            {
+                Debug.Log("Has dealt with task " + i);
                 AddPerfab(PlayerStatus.instance.tasks[i], i);
+            }
         }
     }
 
@@ -107,5 +109,6 @@ public class TaskManager : MonoBehaviour
         }
 
         taskList.Add(newPerfab);
+        newPerfab.SetActive(true);
     }
 }

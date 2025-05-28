@@ -18,6 +18,8 @@ public class PlayerStatus : MonoBehaviour
         new ("拍摄学生证照片",10,Tasks._taskType.Talking,"到达北园南教学楼（北园东侧最南面），进入教室拍照（鼠标点击相机）。分值10分。"),
         new ("整理宿舍",0,Tasks._taskType.Talking,"回到宿舍与室友交流，完成对话后上床休息。")
     };
+
+    public string studentId;
     public string playerName;
     public int playingDate;
     void Awake()

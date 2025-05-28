@@ -39,15 +39,6 @@ public class InteractTrigger : MonoBehaviour
             //Debug.Log("Taskable given!");
             BoxManager.instance.taskable = taskable;
             BoxManager.instance.taskTarget = taskTarget;
-            PlayerStatus playerData = null;
-            // Transform paTransform = GameManager.instance.transform;
-            // Transform kidTransform = paTransform.Find("PlayerStatus");
-            // if (kidTransform != null)
-            // {
-            //     GameObject temp = kidTransform.gameObject;
-            //     playerData = temp.GetComponent<PlayerStatus>();
-            // }
-            // BoxManager.instance.playerStat = playerData;
         }
     }
 
@@ -61,7 +52,6 @@ public class InteractTrigger : MonoBehaviour
             //Debug.Log("Taskable cleared!");
             BoxManager.instance.taskable = null;
             BoxManager.instance.taskTarget = null;
-            //BoxManager.instance.playerStat = null;
         }
     }
 
@@ -72,8 +62,7 @@ public class InteractTrigger : MonoBehaviour
 
     void interact()
     {
-        if (isEntered && (Input.GetKeyDown(KeyCode.F) || Input.GetMouseButtonDown(0))
-                      && BoxManager.instance.DialogueBox.activeInHierarchy == false)
+        if (isEntered && (Input.GetKeyDown(KeyCode.F)) && BoxManager.instance.DialogueBox.activeInHierarchy == false)
         {
             string[] texts;
             int key = BoxManager.instance.checkQuestStatus();

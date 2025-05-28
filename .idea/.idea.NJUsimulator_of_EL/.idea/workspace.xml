@@ -5,89 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9b577f1-42ad-4c7e-b11d-18b920b41f76" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/forButton/Demonstrate.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.plastic/plastic.changes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.plastic/plastic.selector" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.plastic/plastic.wktree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.plastic/plastic.workspace" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_down.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_down.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_up.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/run_up.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_down.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_down.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_left.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_left.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_right.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_right.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_up.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animation_Pack/stand_up.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/6.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/6.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/NPC Profile/7.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/NPC Profile/7.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/New Animator Controller.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/New Animator Controller.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Basic_Furniture.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Basic_Furniture.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Basic_Grass_Biom_things.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Basic_Grass_Biom_things.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Sijidou.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Sijidou.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Tilemap.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Tilemap.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Tilled_Dirt_Wide_v2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Tilled_Dirt_Wide_v2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Wooden_House_Roof_Tilset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Wooden_House_Roof_Tilset.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/Wooden_House_Walls_Tilset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/Wooden_House_Walls_Tilset.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/objects.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/objects.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/学校(school)_爱给网_aigei_com (1).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/学校(school)_爱给网_aigei_com (1).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/学校(school)_爱给网_aigei_com.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/学校(school)_爱给网_aigei_com.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Elements/学校街(street)_爱给网_aigei_com.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Elements/学校街(street)_爱给网_aigei_com.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NJUsimulator_of_EL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NJUsimulator_of_EL/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/South.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/South.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue.zip.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DontDestory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/DontDestory.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/GameManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation.zip.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Transition/QuitGame.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Transition/QuitGame.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Position.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Position/Position.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position/Position.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Position/PositionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position/PositionManager.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask.zip.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/Taskable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/Taskable.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/forTaskButton.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/forButton.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/forTaskButton/Demonstrate.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/forTaskButton/Demonstrate.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/forButton/Demonstrate.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/forTaskButton/ExitPanel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/forButton/ExitPanel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/forTaskButton/ExitPanel.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/forButton/ExitPanel.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite sheets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite sheets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Emotes/Teemo Basic emote animations sprite sheet.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Emotes/Teemo Basic emote animations sprite sheet.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box  big.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box  big.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box medium.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box medium.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box small.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/Premade dialog box small.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box character finished talking click to continue indicator - spritesheet .png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box character finished talking click to continue indicator - spritesheet .png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box medium.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box medium.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box small.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box small.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Dialouge UI/dialog box.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/Small Happines-Sadness icons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/Small Happines-Sadness icons.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/Special Icons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/special icons/Special Icons.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/white icons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/Icons/white icons.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/UI Settings Buttons.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/UI Settings Buttons.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/MENU.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/MENU.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/Square Buttons 26x19.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/Square Buttons 26x19.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/cat2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/Sprite sheets/buttons/cat2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprout Lands - UI Pack - Basic pack/fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TaskBox.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TaskBox.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TaskPanel.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TaskPanel.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TriggerTest.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TriggerTest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/vonwaon-bitmap.ttf/VonwaonBitmap-16px SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/vonwaon-bitmap.ttf/VonwaonBitmap-16px SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/zh-cn_Commonly_used.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/zh-cn_Commonly_used.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,6 +119,8 @@
       <workItem from="1748403398700" duration="2503000" />
       <workItem from="1748414573593" duration="9891000" />
       <workItem from="1748425140433" duration="1573000" />
+      <workItem from="1748435756315" duration="3525000" />
+      <workItem from="1748439736794" duration="651000" />
     </task>
     <servers />
   </component>
