@@ -1,1 +1,2 @@
 *.asset filter=lfs diff=lfs merge=lfs -text
+Assets/vonwaon-bitmap.ttf/*.asset filter=lfs diff=lfs merge=lfs -text
