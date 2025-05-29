@@ -111,7 +111,7 @@ public class IntroDialogueManager : MonoBehaviour
                 playerText.gameObject.SetActive(false);
                 systemBox.gameObject.SetActive(true);
                 systemText.gameObject.SetActive(true);
-                systemText.text = $"Beason：很好，我找到你的学号了！：{studentId}\n（可在“菜单→个人信息”中随时查看）\n现在，正式开始你的大学生活吧！第一步，带上行李，完成开学报到！";
+                systemText.text = $"Beason：很好，我找到你的学号了！：{studentId}\n（可在“MENU”中随时查看,菜单内还包括游戏帮助“HELP”，里面含有功能键介绍，请及时查看）\n现在，正式开始你的大学生活吧！第一步，带上行李，完成开学报到！";
                 break;
             case 12:
                 systemBox.gameObject.SetActive(false);
@@ -171,6 +171,8 @@ public class IntroDialogueManager : MonoBehaviour
         nameInput.gameObject.SetActive(false);
         submitNameButton.gameObject.SetActive(false);
 
+        PlayerStatus.instance.playerName = playerName;
+        PlayerStatus.instance.studentId = studentId;
 
         systemBox.gameObject.SetActive(false);
         systemText.gameObject.SetActive(false);
