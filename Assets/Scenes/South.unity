@@ -35932,6 +35932,227 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.95490265, y: 0.99916077}
   m_EdgeRadius: 0
+--- !u!1001 &877999563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[1].taskType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[0].taskTitle
+      value: "\u62CD\u6444\u5B66\u751F\u8BC1\u7167\u7247"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[1].taskTitle
+      value: "\u642C\u884C\u674E"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[0]._pointRewards
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[0].taskDescription
+      value: "\u63CF\u8FF0\uFF1A \u9886\u53D6\u6821\u56ED\u5361\u540E\uFF0C\u5FD7\u613F\u8005\u53C8\u9012\u6765\u4E00\u5F20\u62CD\u7167\u6761\u3002\u4F60\u9700\u8981\u524D\u5F80\u5317\u56ED\u6700\u5357\u7AEF\u7684\u6559\u5B66\u697C\u2014\u2014\u5357\u6559\uFF0C\u5728\u90A3\u91CC\u4E3A\u5B66\u751F\u8BC1\u62CD\u6444\u7167\u7247\u3002\u9009\u62E9\u6559\u5BA4\u3001\u5B8C\u6210\u62CD\u7167\u540E\u624D\u80FD\u5B8C\u6210\u4EFB\u52A1\u3002\u8BB0\u4F4F\uFF0C\u8FD9\u662F\u4F60\u5728\u5357\u5927\u8EAB\u4EFD\u7684\u8C61\u5F81\u4E4B\u4E00\uFF0C\u8BA4\u771F\u5BF9\u5F85\u5427\uFF01 
+        \n\u6CE8\uFF1A\u5357\u6559\u5728\u5317\u56ED\u4E1C\u4FA7\u6700\u5357\u9762\uFF0C\u8FD9\u91CC\u542B\u6709\u9690\u85CF\u52A0\u5206\u9879\n\u5B8C\u6210\u6807\u51C6\uFF1A\u70B9\u51FB\u6559\u5BA4\u5185\u76F8\u673A\n\u5206\u503C\uFF1A10+10"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[1].taskDescription
+      value: "\u5230\u8FBE\u5BBF\u820D\uFF0C\u4EFB\u52A1\u5B8C\u6210\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -38.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 24.665916
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156159524971067228, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3156159524971067228, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509813445869283696, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509813445869283696, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5297273246540175353, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_Name
+      value: Task2Target&Task3Delegator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048780887283930670, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: demonstrateDate
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: taskTarget
+      value: 
+      objectReference: {fileID: 877999565}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[0]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[1]
+      value: "\u662F\u65B0\u751F\u5427\uFF0C\u62A5\u5230\u7684\u8BDD\u6765\u586B\u4E00\u4E0B\u59D3\u540D\u5B66\u53F7\u5C31\u53EF\u4EE5\u4E86\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[3]
+      value: "\u597D\u7684\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[4]
+      value: 'name:'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[5]
+      value: "\uFF08\u586B\u5199\u8D44\u6599\u4E2D\uFF09"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[6]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[7]
+      value: "\u558F\uFF0C\u8FD9\u662F\u4F60\u7684\u6821\u5361\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[8]
+      value: name:Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[9]
+      value: "\u8C22\u8C22\u5B66\u957F\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[10]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[11]
+      value: "...\u8FD8\u6709\u8FD9\u4E2A\u62CD\u7167\u6761\uFF0C\u8BB0\u5F97\u5E26\u7740\u5B83\u53BB\u5357\u6559\u62CD\u7167\uFF0C\u8FD9\u7167\u7247\u53EF\u662F\u8981\u5370\u5728\u5B66\u751F\u8BC1\u4E0A\u7684\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: priorTexts.Array.data[12]
+      value: "\u7ED5\u8FC7\u524D\u9762\u8FD9\u680B\u697C\u4E00\u76F4\u5F80\u524D\u8D70\uFF0C\u4F60\u4F1A\u770B\u5230\u51E0\u4E2A\u7EA2\u68DA\u5B50\uFF0C\u7EA2\u68DA\u5B50\u524D\u9762\u90A3\u680B\u697C\u5C31\u662F\u5566\uFF01"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: defaultTexts.Array.data[0]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: defaultTexts.Array.data[1]
+      value: "\u8FD9\u91CC\u662F\u65B0\u751F\u8D44\u6599\u586B\u5199\u5904\uFF0C\u6709\u4EC0\u4E48\u80FD\u5E2E\u5FD9\u7684\u5417\uFF1F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: afterwardsTexts.Array.data[0]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: afterwardsTexts.Array.data[1]
+      value: "\u8FD9\u91CC\u662F\u65B0\u751F\u8D44\u6599\u586B\u5199\u5904\uFF0C\u6709\u4EC0\u4E48\u80FD\u5E2E\u5FD9\u7684\u5417\uFF1F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: processingTexts.Array.data[0]
+      value: "name:\u5FD7\u613F\u8005"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: processingTexts.Array.data[1]
+      value: "\u867D\u7136\u662F\u53EB\u201C\u5357\u6559\u201D\uFF0C\u4F46\u662F\u5B83\u5176\u5B9E\u5728\u5317\u56ED\u54E6\u3002"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: processingTexts.Array.data[2]
+      value: "\u76F8\u5BF9\u5F80\u5357\u4E5F\u662F\u5357~"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7899288255225897029, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1432931757, guid: 5a123ca187e767a4a85081223252f666, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5297273246540175353, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 877999565}
+  m_SourcePrefab: {fileID: 100100000, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+--- !u!1 &877999564 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5297273246540175353, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+  m_PrefabInstance: {fileID: 877999563}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &877999565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877999564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbfc3859329d1441a40889f6977f68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetName: "\u65B0\u751F\u62A5\u5230"
+  status: 0
+  targetType: 1
+  amount: 1
+  hasTalked: 0
+  hasReached: 0
+  pointRewards: 10
 --- !u!1 &885662585
 GameObject:
   m_ObjectHideFlags: 0
@@ -41395,6 +41616,11 @@ PrefabInstance:
       propertyPath: task.Array.data[0]._pointRewards
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 1198831205962066110, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: task.Array.data[0].taskDescription
+      value: "\u4EFB\u52A1\u63CF\u8FF0\uFF1A \u5728\u70ED\u60C5\u5B66\u59D0\u7684\u6307\u5F15\u4E0B\uFF0C\u8E0F\u4E0A\u5357\u5927\u7684\u7B2C\u4E00\u6B65\u3002\u6CBF\u7740\u5979\u6307\u7684\u65B9\u5411\uFF0C\u7ED5\u8FC7\u5357\u56ED8\u820D\uFF0C\u7A7F\u8FC7\u70ED\u95F9\u7684\u6821\u56ED\uFF0C\u5230\u8FBE\u53573\u5BBF\u820D\u3002\u4F60\u7684\u76EE\u6807\u662F\u987A\u5229\u62B5\u8FBE\u5BBF\u820D\uFF0C\u4E3A\u5927\u5B66\u751F\u6D3B\u7684\u5F00\u59CB\u94FA\u597D\u7B2C\u4E00\u5757\u57FA\u77F3\u3002  
+        \u5B8C\u6210\u6807\u51C6\uFF1A\u5230\u8FBE\u5BBF\u820D \u5206\u503C\uFF1A10"
+      objectReference: {fileID: 0}
     - target: {fileID: 2579149399330904626, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_LocalPosition.x
       value: -42.726585
@@ -41435,9 +41661,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3156159524971067228, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4509813445869283696, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5297273246540175353, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_Name
-      value: NPC Example
+      value: Task1Delegator
+      objectReference: {fileID: 0}
+    - target: {fileID: 6048780887283930670, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+      propertyPath: demonstrateDate
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: defaultTexts.Array.size
@@ -105573,25 +105811,30 @@ MonoBehaviour:
   Points: 0
   tasks:
   - taskTitle: "\u642C\u884C\u674E"
-    taskDescription: "\u5230\u8FBE\u5BBF\u820D\uFF0C\u4EFB\u52A1\u5B8C\u6210\u3002\u5206\u503C10\u5206\u3002"
+    taskDescription: "\u4EFB\u52A1\u63CF\u8FF0\uFF1A \u5728\u70ED\u60C5\u5B66\u59D0\u7684\u6307\u5F15\u4E0B\uFF0C\u8E0F\u4E0A\u5357\u5927\u7684\u7B2C\u4E00\u6B65\u3002\u6CBF\u7740\u5979\u6307\u7684\u65B9\u5411\uFF0C\u7ED5\u8FC7\u5357\u56ED8\u820D\uFF0C\u7A7F\u8FC7\u70ED\u95F9\u7684\u6821\u56ED\uFF0C\u5230\u8FBE\u53573\u5BBF\u820D\u3002\u4F60\u7684\u76EE\u6807\u662F\u987A\u5229\u62B5\u8FBE\u5BBF\u820D\uFF0C\u4E3A\u5927\u5B66\u751F\u6D3B\u7684\u5F00\u59CB\u94FA\u597D\u7B2C\u4E00\u5757\u57FA\u77F3\u3002 
+      \\n\n \u5B8C\u6210\u6807\u51C6\uFF1A\u5230\u8FBE\u5BBF\u820D \\n\n\u5206\u503C\uFF1A10"
     taskStatus: 0
     taskType: 2
     _pointRewards: 10
   - taskTitle: "\u65B0\u751F\u62A5\u5230"
-    taskDescription: "\u5230\u8FBE\u5BBF\u820D\u697C\u524D\u7EA2\u68DA\u5B50\u5904\u4E0E\u5FD7\u613F\u8005\u4EA4\u6D41\uFF0C\u62A5\u5230\u9886\u53D6\u6821\u56ED\u5361\u3002\u5206\u503C10\u5206\u3002"
+    taskDescription: "\u4EFB\u52A1\u63CF\u8FF0\uFF1A \u8FDB\u5165\u5BBF\u820D\u540E\uFF0C\u5BA4\u53CB\u63D0\u9192\u4F60\u8FD8\u672A\u5B8C\u6210\u5173\u952E\u7684\u4E00\u6B65\u2014\u2014\u65B0\u751F\u62A5\u5230\u3002\u8D76\u7D27\u524D\u5F80\u5BBF\u820D\u697C\u524D\u7684\u7EA2\u68DA\u5B50\uFF0C\u90A3\u91CC\u6709\u5FD7\u613F\u8005\u7B49\u7740\u4F60\u3002\u5B8C\u6210\u767B\u8BB0\u540E\uFF0C\u4F60\u5C06\u9886\u53D6\u5357\u5927\u7684\u7B2C\u4E00\u4EFD\u201C\u901A\u884C\u8BC1\u201D\u2014\u2014\u6821\u56ED\u5361\uFF01 
+      \\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u4E0E\u5FD7\u613F\u8005\u4EA4\u6D41 \\n\n\u5206\u503C\uFF1A10  "
     taskStatus: 0
     taskType: 1
     _pointRewards: 10
   - taskTitle: "\u62CD\u6444\u5B66\u751F\u8BC1\u7167\u7247"
-    taskDescription: "\u5230\u8FBE\u5317\u56ED\u5357\u6559\u5B66\u697C\uFF08\u5317\u56ED\u4E1C\u4FA7\u6700\u5357\u9762\uFF09\uFF0C\u8FDB\u5165\u6559\u5BA4\u62CD\u7167\uFF08\u9F20\u6807\u70B9\u51FB\u76F8\u673A\uFF09\u3002\u5206\u503C10\u5206\u3002"
+    taskDescription: "\u63CF\u8FF0\uFF1A \u9886\u53D6\u6821\u56ED\u5361\u540E\uFF0C\u5FD7\u613F\u8005\u53C8\u9012\u6765\u4E00\u5F20\u62CD\u7167\u6761\u3002\u4F60\u9700\u8981\u524D\u5F80\u5317\u56ED\u6700\u5357\u7AEF\u7684\u6559\u5B66\u697C\u2014\u2014\u5357\u6559\uFF0C\u5728\u90A3\u91CC\u4E3A\u5B66\u751F\u8BC1\u62CD\u6444\u7167\u7247\u3002\u9009\u62E9\u6559\u5BA4\u3001\u5B8C\u6210\u62CD\u7167\u540E\u624D\u80FD\u5B8C\u6210\u4EFB\u52A1\u3002\u8BB0\u4F4F\uFF0C\u8FD9\u662F\u4F60\u5728\u5357\u5927\u8EAB\u4EFD\u7684\u8C61\u5F81\u4E4B\u4E00\uFF0C\u8BA4\u771F\u5BF9\u5F85\u5427\uFF01 
+      \\n\n\u6CE8\uFF1A\u5357\u6559\u5728\u5317\u56ED\u4E1C\u4FA7\u6700\u5357\u9762\uFF0C\u8FD9\u91CC\u542B\u6709\u9690\u85CF\u52A0\u5206\u9879\\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u70B9\u51FB\u6559\u5BA4\u5185\u76F8\u673A\\n\n\u5206\u503C\uFF1A10+10\\n"
     taskStatus: 0
     taskType: 1
     _pointRewards: 10
   - taskTitle: "\u6574\u7406\u5BBF\u820D"
-    taskDescription: "\u56DE\u5230\u5BBF\u820D\u4E0E\u5BA4\u53CB\u4EA4\u6D41\uFF0C\u5B8C\u6210\u5BF9\u8BDD\u540E\u4E0A\u5E8A\u4F11\u606F\u3002"
+    taskDescription: "\u63CF\u8FF0\uFF1A \u5B8C\u6210\u4E00\u5929\u7684\u62A5\u5230\u6D41\u7A0B\u548C\u62CD\u7167\u4EFB\u52A1\u540E\uFF0C\u56DE\u5230\u5BBF\u820D\uFF0C\u548C\u5BA4\u53CB\u4E00\u8D77\u5B8C\u6210\u5BBF\u820D\u6574\u7406\u4EFB\u52A1\u3002\u626B\u5730\u3001\u62D6\u5730\u3001\u63A5\u6C34\u3001\u4EA4\u6D41......\u6574\u6D01\u7684\u5BBF\u820D\u5C06\u4E3A\u4F60\u5E26\u6765\u4E00\u4E2A\u8212\u9002\u7684\u5F00\u5B66\u8D77\u70B9\u3002\u6574\u7406\u5B8C\u6BD5\u540E\uFF0C\u56DE\u5230\u5E8A\u4E0A\uFF0C\u51C6\u5907\u8FCE\u63A5\u4E0B\u4E00\u5929\u7684\u6821\u56ED\u751F\u6D3B\u3002 
+      \\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u4E0E\u5BA4\u53CB\u4EA4\u6D41\uFF0C\u5B8C\u6210\u5BF9\u8BDD\u540E\u4E0A\u5E8A\u4F11\u606F\u3002\\n\n\u5206\u503C\uFF1A10\\n"
     taskStatus: 0
     taskType: 1
     _pointRewards: 0
+  studentId: 
   playerName: Anxiaomo
   playingDate: 1
 --- !u!1 &2106457341 stripped
@@ -105871,3 +106114,4 @@ SceneRoots:
   - {fileID: 928208825}
   - {fileID: 366392898}
   - {fileID: 1674483583}
+  - {fileID: 877999563}

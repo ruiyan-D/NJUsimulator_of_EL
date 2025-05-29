@@ -6,8 +6,9 @@ public class DateCheck : MonoBehaviour
 {
     public int demonstrateDate;
 
-    void datecheck()
+    private void Update()
     {
-        gameObject.SetActive(PlayerStatus.instance.playingDate == demonstrateDate);
+        gameObject.SetActive(PlayerStatus.instance.playingDate >= demonstrateDate
+        && PlayerStatus.instance.playingDate -1 <= demonstrateDate);
     }
 }

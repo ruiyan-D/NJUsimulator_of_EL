@@ -27,6 +27,8 @@ public class TaskTarget : MonoBehaviour
     
     [Header("Reaching")] public bool hasReached;
 
+    [Header("Points")] public int pointRewards;
+
     public void targetComplete()
     {
         for (int i = 0; i < PlayerStatus.instance.tasks.Length; i++)
@@ -42,7 +44,8 @@ public class TaskTarget : MonoBehaviour
                         if (hasTalked)
                         {
                             PlayerStatus.instance.tasks[i].taskStatus = Tasks._taskStatus.finished;
-                            PlayerStatus.instance.Points += PlayerStatus.instance.tasks[i]._pointRewards;
+                            PlayerStatus.instance.Points += pointRewards;
+                            PlayerStatus.instance.playingDate++;
                             TaskManager.instance.UpdateTaskList();
                         }
                         break;
@@ -50,7 +53,8 @@ public class TaskTarget : MonoBehaviour
                         if (hasReached)
                         {
                             PlayerStatus.instance.tasks[i].taskStatus = Tasks._taskStatus.finished;
-                            PlayerStatus.instance.Points += PlayerStatus.instance.tasks[i]._pointRewards;
+                            PlayerStatus.instance.Points += pointRewards;
+                            PlayerStatus.instance.playingDate++;
                             TaskManager.instance.UpdateTaskList();
                         }
                         break;

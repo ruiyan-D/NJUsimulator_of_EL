@@ -6,22 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="e9b577f1-42ad-4c7e-b11d-18b920b41f76" name="更改" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.NJUsimulator_of_EL/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NJUsimulator_of_EL/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dormitory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dormitory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJ101.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJ101.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJ102.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJ102.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJCorridor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJCorridor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/South.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/South.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Position.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Position/Position.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position/Position.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/Position/PositionManager.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position/PositionManager.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask.zip.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/vonwaon-bitmap.ttf/VonwaonBitmap-16px SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/vonwaon-bitmap.ttf/VonwaonBitmap-16px SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/zh-cn_Commonly_used.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/zh-cn_Commonly_used.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/DateCheck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/DateCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/vonwaon-bitmap.ttf/VonwaonBitmap-16px SDF.asset.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +27,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Operation/GetToNextDay.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Operation/ScreenFade.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/EventSystem/EventSystem.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -121,6 +118,7 @@
       <workItem from="1748425140433" duration="1573000" />
       <workItem from="1748435756315" duration="3525000" />
       <workItem from="1748439736794" duration="651000" />
+      <workItem from="1748484842239" duration="6122000" />
     </task>
     <servers />
   </component>

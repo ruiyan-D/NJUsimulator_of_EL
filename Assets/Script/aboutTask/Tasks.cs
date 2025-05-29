@@ -20,6 +20,7 @@ public class Tasks
     };
 
     public string taskTitle;
+    [TextArea(1,4)]
     public string taskDescription;
     public _taskStatus taskStatus;
     public _taskType taskType;
