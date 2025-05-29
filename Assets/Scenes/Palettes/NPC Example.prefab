@@ -194,6 +194,7 @@ GameObject:
   - component: {fileID: 4509813445869283696}
   - component: {fileID: 1198831205962066110}
   - component: {fileID: 6847376451563289635}
+  - component: {fileID: 6048780887283930670}
   m_Layer: 10
   m_Name: NPC Example
   m_TagString: Untagged
@@ -418,6 +419,19 @@ MonoBehaviour:
   isEntered: 0
   taskable: {fileID: 1198831205962066110}
   taskTarget: {fileID: 0}
+--- !u!114 &6048780887283930670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297273246540175353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422f35111108e444086798d2f0b58f6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  demonstrateDate: 0
 --- !u!1 &6595992923629421693
 GameObject:
   m_ObjectHideFlags: 0
