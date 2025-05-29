@@ -62,7 +62,11 @@ public class PositionManager : MonoBehaviour
 
     public bool IsPositionActive(string id)
     {
-        if(id == "MENU") return true;
+        if(id == "MENU" || id == "noPlayer")
+        {
+            Debug.Log("active");
+            return true;
+        }
         else return activePositions.ContainsKey(id) && activePositions[id];
     }
 
