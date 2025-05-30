@@ -22,6 +22,9 @@ public class BoxManager : MonoBehaviour
     
     public TaskTarget taskTarget;               // 管理任务状况
 
+    public AudioSource audioSpeak;
+    public AudioClip SpeakClip;
+
     //public PlayerStatus playerStat;
     void Awake()
     {
@@ -50,6 +53,7 @@ public class BoxManager : MonoBehaviour
                 //Debug.Log("Detected interact.");
                 if (isScrolling)
                 {
+                    audioSpeak.Stop();
                     // 如果正在滚动，立即完成当前行
                     forceComplete = true;
                 }
@@ -59,6 +63,7 @@ public class BoxManager : MonoBehaviour
                     currentLine++;
                     if (currentLine < boxTextLines.Length)
                     {
+                        audioSpeak.Play();
                         getName();
                         currentTextCoroutine = StartCoroutine(ScrollingText());
                     }

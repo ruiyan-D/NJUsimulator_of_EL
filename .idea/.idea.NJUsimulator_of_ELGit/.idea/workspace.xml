@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="61763ffb-3060-48db-98ee-6cd2b6a1505d" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ComputerRoom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ComputerRoom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/DrawResultScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/DrawResultScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/QuizConfirmScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/QuizConfirmScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/QuizResultScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/CourseAndTest/QuizResultScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Dormitory.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Dormitory.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FeiA206.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FeiA206.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/If103.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/If103.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/IntroScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/IntroScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/J103.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/J103.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/J115.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/J115.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/JCorridor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/JCorridor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Library.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Library.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Musicroom.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Musicroom.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJ101.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJ101.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJ102.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJ102.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NJCorridor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NJCorridor.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NorthEast.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NorthEast.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NorthMid.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NorthMid.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/NorthWest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/NorthWest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Office.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Office.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/NPC Example.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskBox.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskBox.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskBox.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskBox.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskPanel.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskPanel.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskPanel.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Palettes/TaskPanel.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/South.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/South.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Dialogue/BoxManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Menu.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Menu.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/InteractTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/MoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/MoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/ScreenFade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/ScreenFade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Operation/ScreenFade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Operation/ScreenFade.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Position.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Position.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Save/DataSaver.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Save/DataSaver.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/Save/PlayerStatus.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/TaskTarget.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/aboutTask/Tasks.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Script/Transition/LoaderGOTO.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2xmNMlFZUzTYMmqudXXTMz3bia3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="附加到 Unity 编辑器.附加到 Unity 编辑器">
+    <configuration name="启动 Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.57f1c1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\22078\Desktop\NJUsimulator_of_ELGit -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\22078\Desktop\NJUsimulator_of_ELGit" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="单元测试(批处理模式)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.57f1c1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\22078\Desktop\NJUsimulator_of_ELGit -testResults Logs/results.xml -logFile Logs/Editor.log -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\22078\Desktop\NJUsimulator_of_ELGit" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="PTY_MODE" value="Auto" />
+      <method v="2" />
+    </configuration>
+    <configuration name="附加到 Unity 编辑器" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="附加到 Unity 编辑器并运行" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="runtimes">
+        <list />
+      </option>
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="useMixedMode" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="61763ffb-3060-48db-98ee-6cd2b6a1505d" name="更改" comment="" />
+      <created>1748539242881</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748539242881</updated>
+      <workItem from="1748539247302" duration="28000" />
+      <workItem from="1748539282626" duration="875000" />
+      <workItem from="1748572206307" duration="7599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityProjectDiscoverer">
+    <option name="hasUnityReference" value="true" />
+    <option name="unityProject" value="true" />
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+</project>

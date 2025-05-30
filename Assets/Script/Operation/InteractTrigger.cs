@@ -64,32 +64,33 @@ public class InteractTrigger : MonoBehaviour
     {
         if (isEntered && (Input.GetKeyDown(KeyCode.F)) && BoxManager.instance.DialogueBox.activeInHierarchy == false)
         {
+            BoxManager.instance.audioSpeak.Play();
             string[] texts;
             int key = BoxManager.instance.checkQuestStatus();
             switch (key)
             {
                 case 0:
                     // 无任务
-                    Debug.Log("Given defaultTexts");
+                    //Debug.Log("Given defaultTexts");
                     texts = defaultTexts;
                     break;
                 case 1:
                     // 未更新
-                    Debug.Log("Given afterwardsTexts");
+                    //Debug.Log("Given afterwardsTexts");
                     texts = afterwardsTexts;
                     break;
                 case 2:
                     // 进行中
-                    Debug.Log("Given processingTexts");
+                    //Debug.Log("Given processingTexts");
                     texts = processingTexts;
                     break;
                 case 3:
                     // 待接取
-                    Debug.Log("Given priorTexts");
+                    //Debug.Log("Given priorTexts");
                     texts = priorTexts;
                     break;
                 default:
-                    Debug.Log("Given errorTexts");
+                    //Debug.Log("Given errorTexts");
                     texts = errorTexts;
                     break;
             }

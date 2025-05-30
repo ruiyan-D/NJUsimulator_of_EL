@@ -19,12 +19,19 @@ public class Tasks
         Reaching
     };
 
+    public enum _taskKind
+    {
+        Main,
+        Side
+    };
+
     public string taskTitle;
     [TextArea(1,4)]
     public string taskDescription;
     public _taskStatus taskStatus;
     public _taskType taskType;
     public int _pointRewards;
+    public _taskKind taskKind;
 
     public Tasks(string name, int rewards, _taskType type, string des)
     {

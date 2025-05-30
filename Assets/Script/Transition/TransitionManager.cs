@@ -8,7 +8,7 @@ public class TransitionManager : Singleton<TransitionManager>
     public float fadeDuration;
     private bool isFade;
     public GameObject playerPrefab; // 预制体
-    private string lastSceneBeforeMenu = null;
+    //private string lastSceneBeforeMenu = null;
 
     public void Transition(string from, string to)
     {
@@ -17,13 +17,13 @@ public class TransitionManager : Singleton<TransitionManager>
         {
             from = SceneManager.GetActiveScene().name;
             Debug.Log("save scene "+from);
-            lastSceneBeforeMenu = from;
+            PlayerStatus.instance.lastSceneBeforeMenu = from;
         }
 
         // 如果是从 Menu 回来，但未指定目标场景，决定去哪里
         if (from == "Menu" && to == "Undefined")
         {
-            to = string.IsNullOrEmpty(lastSceneBeforeMenu) ? "IntroScene" : lastSceneBeforeMenu;
+            to = string.IsNullOrEmpty(PlayerStatus.instance.lastSceneBeforeMenu) ? "IntroScene" : PlayerStatus.instance.lastSceneBeforeMenu;
         }
         if (!isFade)
             StartCoroutine(TransitionToScene(from, to));

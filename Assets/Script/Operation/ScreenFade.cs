@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ScreenFade : MonoBehaviour
 {
+    public static ScreenFade instance;
     // 渐变参数
     public float fadeDuration = 1f;   // 渐变时间
     public float blackDuration = 2f;  // 黑屏持续时间
@@ -10,6 +11,7 @@ public class ScreenFade : MonoBehaviour
     private Texture2D blackTexture;    // 黑色纹理
     private float currentAlpha = 0f;   // 当前透明度
     private bool isFading = false;     // 是否正在渐变
+
     
     void Start()
     {
@@ -68,5 +70,6 @@ public class ScreenFade : MonoBehaviour
         currentAlpha = 0f;
         
         isFading = false;
+        NPCDateController.Instance.UpdateAllNPCs(PlayerStatus.instance.playingDate);
     }
 }

@@ -71,20 +71,20 @@ public class PositionManager : MonoBehaviour
     }
 
     // 存储每个场景对应的 Player 位置
-    private Dictionary<string, Vector3> savedPositions = new Dictionary<string, Vector3>();
+    //private Dictionary<string, Vector3> savedPositions = new Dictionary<string, Vector3>();
 
     // 保存当前位置
     public void SavePlayerPosition(string sceneName, Vector3 position)
     {
-        savedPositions[sceneName] = position;
+        PlayerStatus.instance.savedPositions[sceneName] = position;
     }
 
     // 恢复位置
     public Vector3 GetSavedPosition(string sceneName)
     {
-        if (savedPositions.ContainsKey(sceneName))
+        if (PlayerStatus.instance.savedPositions.ContainsKey(sceneName))
         {
-            return savedPositions[sceneName];
+            return PlayerStatus.instance.savedPositions[sceneName];
         }
 
         // 修正：如果不存在记录，返回 Vector3.zero（默认原点）

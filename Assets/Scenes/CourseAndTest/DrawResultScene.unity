@@ -669,24 +669,28 @@ MonoBehaviour:
     taskStatus: 0
     taskType: 2
     _pointRewards: 10
+    taskKind: 0
   - taskTitle: "\u65B0\u751F\u62A5\u5230"
     taskDescription: "\u4EFB\u52A1\u63CF\u8FF0\uFF1A \u8FDB\u5165\u5BBF\u820D\u540E\uFF0C\u5BA4\u53CB\u63D0\u9192\u4F60\u8FD8\u672A\u5B8C\u6210\u5173\u952E\u7684\u4E00\u6B65\u2014\u2014\u65B0\u751F\u62A5\u5230\u3002\u8D76\u7D27\u524D\u5F80\u5BBF\u820D\u697C\u524D\u7684\u7EA2\u68DA\u5B50\uFF0C\u90A3\u91CC\u6709\u5FD7\u613F\u8005\u7B49\u7740\u4F60\u3002\u5B8C\u6210\u767B\u8BB0\u540E\uFF0C\u4F60\u5C06\u9886\u53D6\u5357\u5927\u7684\u7B2C\u4E00\u4EFD\u201C\u901A\u884C\u8BC1\u201D\u2014\u2014\u6821\u56ED\u5361\uFF01 
       \\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u4E0E\u5FD7\u613F\u8005\u4EA4\u6D41 \\n\n\u5206\u503C\uFF1A10  "
     taskStatus: 0
     taskType: 1
     _pointRewards: 10
+    taskKind: 0
   - taskTitle: "\u62CD\u6444\u5B66\u751F\u8BC1\u7167\u7247"
     taskDescription: "\u63CF\u8FF0\uFF1A \u9886\u53D6\u6821\u56ED\u5361\u540E\uFF0C\u5FD7\u613F\u8005\u53C8\u9012\u6765\u4E00\u5F20\u62CD\u7167\u6761\u3002\u4F60\u9700\u8981\u524D\u5F80\u5317\u56ED\u6700\u5357\u7AEF\u7684\u6559\u5B66\u697C\u2014\u2014\u5357\u6559\uFF0C\u5728\u90A3\u91CC\u4E3A\u5B66\u751F\u8BC1\u62CD\u6444\u7167\u7247\u3002\u9009\u62E9\u6559\u5BA4\u3001\u5B8C\u6210\u62CD\u7167\u540E\u624D\u80FD\u5B8C\u6210\u4EFB\u52A1\u3002\u8BB0\u4F4F\uFF0C\u8FD9\u662F\u4F60\u5728\u5357\u5927\u8EAB\u4EFD\u7684\u8C61\u5F81\u4E4B\u4E00\uFF0C\u8BA4\u771F\u5BF9\u5F85\u5427\uFF01 
       \\n\n\u6CE8\uFF1A\u5357\u6559\u5728\u5317\u56ED\u4E1C\u4FA7\u6700\u5357\u9762\uFF0C\u8FD9\u91CC\u542B\u6709\u9690\u85CF\u52A0\u5206\u9879\\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u70B9\u51FB\u6559\u5BA4\u5185\u76F8\u673A\\n\n\u5206\u503C\uFF1A10+10\\n"
     taskStatus: 0
     taskType: 1
     _pointRewards: 10
+    taskKind: 0
   - taskTitle: "\u6574\u7406\u5BBF\u820D"
     taskDescription: "\u63CF\u8FF0\uFF1A \u5B8C\u6210\u4E00\u5929\u7684\u62A5\u5230\u6D41\u7A0B\u548C\u62CD\u7167\u4EFB\u52A1\u540E\uFF0C\u56DE\u5230\u5BBF\u820D\uFF0C\u548C\u5BA4\u53CB\u4E00\u8D77\u5B8C\u6210\u5BBF\u820D\u6574\u7406\u4EFB\u52A1\u3002\u626B\u5730\u3001\u62D6\u5730\u3001\u63A5\u6C34\u3001\u4EA4\u6D41......\u6574\u6D01\u7684\u5BBF\u820D\u5C06\u4E3A\u4F60\u5E26\u6765\u4E00\u4E2A\u8212\u9002\u7684\u5F00\u5B66\u8D77\u70B9\u3002\u6574\u7406\u5B8C\u6BD5\u540E\uFF0C\u56DE\u5230\u5E8A\u4E0A\uFF0C\u51C6\u5907\u8FCE\u63A5\u4E0B\u4E00\u5929\u7684\u6821\u56ED\u751F\u6D3B\u3002 
       \\n\n\u5B8C\u6210\u6807\u51C6\uFF1A\u4E0E\u5BA4\u53CB\u4EA4\u6D41\uFF0C\u5B8C\u6210\u5BF9\u8BDD\u540E\u4E0A\u5E8A\u4F11\u606F\u3002\\n\n\u5206\u503C\uFF1A10\\n"
     taskStatus: 0
     taskType: 1
     _pointRewards: 0
+    taskKind: 0
   studentId: 
   playerName: Anxiaomo
   playingDate: 1
@@ -1852,6 +1856,8 @@ MonoBehaviour:
   textSpeed: 0.05
   taskable: {fileID: 0}
   taskTarget: {fileID: 0}
+  audioSpeak: {fileID: 0}
+  SpeakClip: {fileID: 0}
 --- !u!1 &1360744941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2088,7 @@ GameObject:
   - component: {fileID: 1676945583}
   - component: {fileID: 1676945582}
   - component: {fileID: 1676945581}
+  - component: {fileID: 1676945584}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -2165,6 +2172,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1676945584}
+        m_TargetAssemblyTypeName: forChooseButton, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676945582
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,6 +2222,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676945579}
   m_CullTransparentMesh: 1
+--- !u!114 &1676945584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676945579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2d2d93a9e292154d8b0e5e67c4fb7a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1726391819
 GameObject:
   m_ObjectHideFlags: 0

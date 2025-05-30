@@ -45,7 +45,9 @@ public class TaskTarget : MonoBehaviour
                         {
                             PlayerStatus.instance.tasks[i].taskStatus = Tasks._taskStatus.finished;
                             PlayerStatus.instance.Points += pointRewards;
-                            PlayerStatus.instance.playingDate++;
+                            if(PlayerStatus.instance.tasks[i].taskKind.Equals(Tasks._taskKind.Main))
+                                PlayerStatus.instance.playingDate++;
+                            NPCDateController.Instance.UpdateAllNPCs(PlayerStatus.instance.playingDate);
                             TaskManager.instance.UpdateTaskList();
                         }
                         break;
@@ -54,7 +56,9 @@ public class TaskTarget : MonoBehaviour
                         {
                             PlayerStatus.instance.tasks[i].taskStatus = Tasks._taskStatus.finished;
                             PlayerStatus.instance.Points += pointRewards;
-                            PlayerStatus.instance.playingDate++;
+                            if(PlayerStatus.instance.tasks[i].taskKind.Equals(Tasks._taskKind.Main))
+                                PlayerStatus.instance.playingDate++;
+                            NPCDateController.Instance.UpdateAllNPCs(PlayerStatus.instance.playingDate);
                             TaskManager.instance.UpdateTaskList();
                         }
                         break;

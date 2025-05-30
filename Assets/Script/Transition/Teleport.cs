@@ -20,6 +20,10 @@ public class Teleport : MonoBehaviour
             }
 
             TransitionManager.Instance.Transition(sceneFrom, sceneToGo);
+            if (PlayerStatus.instance != null && TaskManager.instance != null)
+            {
+                TaskManager.instance.UpdateTaskList();
+            }
         }
     }
 }

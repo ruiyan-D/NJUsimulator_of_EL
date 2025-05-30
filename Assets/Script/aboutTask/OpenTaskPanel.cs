@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class OpenTaskPanel : MonoBehaviour
 {
+    public AudioSource Ding;
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Tab) && TaskManager.instance.TaskBox.activeInHierarchy == false)
@@ -19,6 +21,7 @@ public class OpenTaskPanel : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && TaskManager.instance.TaskBox.activeInHierarchy == true)
         {
+            Ding.Play();
             if (TaskManager.instance != null)
             {
                 TaskManager.instance.TaskBox.SetActive(false);

@@ -6,6 +6,9 @@ public class MoveController : MonoBehaviour
 {
     private Animator ani;
     private Rigidbody2D rBody;
+
+    public AudioSource runSound;
+
     [SerializeField] public bool moveable = true;
     // Start is called before the first frame update
     void Start()
@@ -52,7 +55,12 @@ public class MoveController : MonoBehaviour
                 rBody.velocity = move * 2.0f;
                 ani.speed = 2f;
             }
+            if (move.magnitude == 0)
+            {
+                runSound.Play();
+            }
         }
+
         else
         {
             ani.SetFloat("Speed", 0);

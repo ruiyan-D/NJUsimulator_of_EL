@@ -166,9 +166,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1589816355
-  m_SortingLayer: 1
-  m_SortingOrder: 5
+  m_SortingLayerID: 1823443087
+  m_SortingLayer: 4
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1031793729, guid: 560873e9cea6d98418b03a42d0d589ce, type: 3}
   m_Color: {r: 0.98039216, g: 0.9320318, b: 0.050980378, a: 1}
   m_FlipX: 0
@@ -194,7 +194,8 @@ GameObject:
   - component: {fileID: 4509813445869283696}
   - component: {fileID: 1198831205962066110}
   - component: {fileID: 6847376451563289635}
-  - component: {fileID: 6048780887283930670}
+  - component: {fileID: 8882443761488320710}
+  - component: {fileID: 7204035845212414495}
   m_Layer: 10
   m_Name: NPC Example
   m_TagString: Untagged
@@ -257,8 +258,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1589816355
-  m_SortingLayer: 1
+  m_SortingLayerID: 1823443087
+  m_SortingLayer: 4
   m_SortingOrder: 5
   m_Sprite: {fileID: 1074662691, guid: df9a44ec7c6832340a01c9790ef8a54c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -379,6 +380,7 @@ MonoBehaviour:
     taskStatus: 0
     taskType: 2
     _pointRewards: 0
+    taskKind: 0
   currentTask: 0
 --- !u!114 &6847376451563289635
 MonoBehaviour:
@@ -419,7 +421,7 @@ MonoBehaviour:
   isEntered: 0
   taskable: {fileID: 1198831205962066110}
   taskTarget: {fileID: 0}
---- !u!114 &6048780887283930670
+--- !u!114 &8882443761488320710
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -428,10 +430,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 5297273246540175353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 422f35111108e444086798d2f0b58f6d, type: 3}
+  m_Script: {fileID: 11500000, guid: 8fbfc3859329d1441a40889f6977f68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  demonstrateDate: 0
+  targetName: 
+  status: 0
+  targetType: 0
+  amount: 1
+  hasTalked: 0
+  hasReached: 0
+  pointRewards: 0
+--- !u!114 &7204035845212414495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5297273246540175353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407781c72ec3beb4db1bd61baa0547f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activeDateRange:
+    startDate: 1
+    endDate: 99
+  isActiveByDate: 0
 --- !u!1 &6595992923629421693
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,9 +559,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1589816355
-  m_SortingLayer: 1
-  m_SortingOrder: 5
+  m_SortingLayerID: 1823443087
+  m_SortingLayer: 4
+  m_SortingOrder: 4
   m_Sprite: {fileID: 1031793729, guid: 560873e9cea6d98418b03a42d0d589ce, type: 3}
   m_Color: {r: 0.98039216, g: 0.9320318, b: 0.050980378, a: 1}
   m_FlipX: 0
