@@ -582,7 +582,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.226721, y: -0.1990901}
+  m_Offset: {x: -0.84928775, y: -0.19105959}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -593,7 +593,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4428096, y: 1.425484}
+  m_Size: {x: 1.3625054, y: 1.1845689}
   m_EdgeRadius: 0
 --- !u!1 &122116372
 GameObject:
@@ -3237,7 +3237,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 1.7741756, y: -0.71232307}
+  m_Offset: {x: 1.7500844, y: -0.79262805}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -3248,7 +3248,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2058792, y: 1.7186606}
+  m_Size: {x: 1.2540617, y: 2.072003}
   m_EdgeRadius: 0
 --- !u!224 &840071065
 RectTransform:
@@ -10215,7 +10215,7 @@ Transform:
   m_GameObject: {fileID: 1399558201}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.42, y: -0.11, z: 0}
+  m_LocalPosition: {x: 1.32, y: -0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14990,6 +14990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1722362600}
   - component: {fileID: 1722362601}
+  - component: {fileID: 1722362602}
   m_Layer: 0
   m_Name: CursorManager
   m_TagString: Untagged
@@ -15022,6 +15023,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ac4b7b457720a2b4a99cf627db232216, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1722362602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722362599}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dc8524bb1df44c4f867daede5ad82a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1734648634
@@ -15498,7 +15511,7 @@ Transform:
   m_GameObject: {fileID: 1803120587}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.85, y: -0.05, z: 0}
+  m_LocalPosition: {x: -7.66, y: -0.05, z: 0}
   m_LocalScale: {x: 6, y: 6, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []

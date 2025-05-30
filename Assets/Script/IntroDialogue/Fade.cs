@@ -2,13 +2,12 @@ using UnityEngine;
 
 public class DelayedFadeOut : MonoBehaviour
 {
-    public float delay = 0.5f;         // 等待时间
-    public float fadeDuration = 1f;   // 渐变时长
+    public float delay = 0.5f;
+    public float fadeDuration = 1f;
     public GameObject Black;
 
     private Material fadeMaterial;
     private Color originalColor;
-    //private bool isFading = false;
 
     void Start()
     {
@@ -19,11 +18,9 @@ public class DelayedFadeOut : MonoBehaviour
             return;
         }
 
-        // 创建材质实例防止修改全局材质
         fadeMaterial = renderer.material;
         originalColor = fadeMaterial.color;
 
-        // 启动协程
         StartCoroutine(FadeAfterDelay());
     }
 
@@ -31,9 +28,10 @@ public class DelayedFadeOut : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
 
-        //isFading = true;
-        float elapsed = 0f;
+        // 🔒 全局锁输入
+        InputBlocker.IsInputBlocked = true;
 
+        float elapsed = 0f;
         while (elapsed < fadeDuration)
         {
             elapsed += Time.deltaTime;
@@ -44,12 +42,14 @@ public class DelayedFadeOut : MonoBehaviour
             yield return null;
         }
 
-        // 最终确保透明并关闭对象
         Color finalColor = originalColor;
         finalColor.a = 0f;
         fadeMaterial.color = finalColor;
 
         gameObject.SetActive(false);
         Black.gameObject.SetActive(false);
+
+        // 🔓 恢复输入
+        InputBlocker.IsInputBlocked = false;
     }
 }
