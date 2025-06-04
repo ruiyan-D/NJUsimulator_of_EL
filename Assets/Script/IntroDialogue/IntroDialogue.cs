@@ -4,8 +4,8 @@ using TMPro;
 
 public class IntroDialogueManager : MonoBehaviour
 {
-    public Text systemText;
-    public Text playerText;
+    public TMP_Text systemText;
+    public TMP_Text playerText;
     public GameObject systemBox;
     public GameObject playerBox;
 
@@ -13,7 +13,7 @@ public class IntroDialogueManager : MonoBehaviour
     public Button optionButton2;
     public Button optionButton3;
 
-    public InputField nameInput;
+    public TMP_InputField nameInput;
     public Button submitNameButton;
 
     private int stage = 0;
@@ -118,7 +118,7 @@ public class IntroDialogueManager : MonoBehaviour
                 systemText.gameObject.SetActive(false);
                 playerBox.gameObject.SetActive(true);
                 optionButton3.gameObject.SetActive(true);
-                optionButton3.GetComponentInChildren<Text>().text = "开始游戏";
+                optionButton3.GetComponentInChildren<TMP_Text>().text = "开始游戏";
                 optionButton3.onClick.RemoveAllListeners();
                 optionButton3.onClick.AddListener(StartGame);
                 break;
@@ -131,8 +131,8 @@ public class IntroDialogueManager : MonoBehaviour
         optionButton1.gameObject.SetActive(true);
         optionButton2.gameObject.SetActive(true);
 
-        optionButton1.GetComponentInChildren<Text>().text = option1Text;
-        optionButton2.GetComponentInChildren<Text>().text = option2Text;
+        optionButton1.GetComponentInChildren<TMP_Text>().text = option1Text;
+        optionButton2.GetComponentInChildren<TMP_Text>().text = option2Text;
 
         optionButton1.onClick.RemoveAllListeners();
         optionButton2.onClick.RemoveAllListeners();

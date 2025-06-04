@@ -21,6 +21,8 @@ public class DelayedFadeOut : MonoBehaviour
         fadeMaterial = renderer.material;
         originalColor = fadeMaterial.color;
 
+        gameObject.SetActive(true);
+        Black.gameObject.SetActive(true);
         StartCoroutine(FadeAfterDelay());
     }
 
