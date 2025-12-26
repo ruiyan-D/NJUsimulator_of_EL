@@ -8567,7 +8567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 599263416998169656, guid: ddec36ba0abe74a4eb7cbf9737aaf167, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1156647763496189970, guid: ddec36ba0abe74a4eb7cbf9737aaf167, type: 3}
       propertyPath: m_fontAsset
@@ -8993,7 +8993,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &848469556
 RectTransform:
   m_ObjectHideFlags: 0
@@ -11283,7 +11283,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1307259660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12196,7 +12196,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3669655040885984029, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4509813445869283696, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
@@ -12212,12 +12212,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6595992923629421693, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: taskTarget
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2112256866}
     - target: {fileID: 6847376451563289635, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: priorTexts.Array.size
       value: 0
@@ -12244,7 +12244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6902519995160630581, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_Layer
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7204035845212414495, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: activeDateRange.endDate
@@ -13503,11 +13503,11 @@ PrefabInstance:
       objectReference: {fileID: -1446509607, guid: 99c18897e589a9142978f43018c59f81, type: 3}
     - target: {fileID: 7899288255225897029, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_SortingLayer
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7899288255225897029, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: m_SortingLayerID
-      value: -1502742325
+      value: -1589816355
       objectReference: {fileID: 0}
     - target: {fileID: 8882443761488320710, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
       propertyPath: targetName
@@ -22484,6 +22484,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &2112256866 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8882443761488320710, guid: 20307cdf0ee613d44ad67cbe1010ae04, type: 3}
+  m_PrefabInstance: {fileID: 1476458072}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fbfc3859329d1441a40889f6977f68a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2136588075
 GameObject:
   m_ObjectHideFlags: 0
